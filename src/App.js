@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Image from "./images/chucho.jpeg";
+import IconHeart from "./images/iconscorazones.png";
+import IconComment from "./images/iconscomentarios.png";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>Instagram</p>
       </header>
+
+      <body>
+        <div className="profilePhoto"></div>
+        <div className="picture">
+          <img src={Image}></img>
+          <img src={IconComment} />
+        </div>
+
+        <div className="interactionIcon">
+          <img src={IconHeart} />
+        </div>
+        <div className="description"></div>
+
+        <div className="commentary"></div>
+      </body>
     </div>
   );
 }

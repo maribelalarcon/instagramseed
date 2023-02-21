@@ -1,4 +1,96 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
 }
+
+#root {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: beige;
+  padding: 15px;
+
+}
+
+.Menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Menu img {
+  margin-left: 10px;
+}
+
+.App-header .Logo img, .Menu img {
+  height: 50px;
+}
+
+.App-body{
+  display: flex;
+  background-color: #f0eff1;
+  justify-content: center;
+}
+
+
+.Avatar{
+  width: 50px;
+  padding-left: 10px;
+}
+
+.UserName{
+  padding-left: 5px;
+}
+
+.Post-header{
+  display: flex;
+  align-items: center;
+}
+
+.Post-image{
+  display: flex;
+
+}
+
+.Post-image img{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+
+}
+
+.Post-actions{
+  display: flex;
+}
+
+.Post-actions button{
+  margin: 0;
+  border: none;
+}
+
+.Post-actions img{
+  width: 50px;
+  height: 50px;
+}
+
+.Post-description{
+  padding: 20px;
+}
+
+
+
+
+
 
